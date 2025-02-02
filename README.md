@@ -6,10 +6,10 @@ This repository contains my solutions for the Assignment given by ArchTech for W
 
 ### **The Assignment includes**:
 
--Fetching data using 'async/await'.
--Displaying the data in a **MUI Table**.
--Integrating **Redux**.
--Writing a **mindmap prompt**.
+- Fetching data using 'async/await'.
+- Displaying the data in a **MUI Table**.
+- Integrating **Redux**.
+- Writing a **mindmap prompt**.
 
 ---
 
@@ -38,9 +38,9 @@ fetchData();
 
 ## **2) Displaying Data in an MUI Table**
 
-## **We use Material UI to display the data in a responsive table**.
+### **We use Material UI to display the data in a responsive table**.
 
-## **Code snippet:**
+### **Code snippet:**
 
 ```javascript
 import { useState, useEffect } from "react";
@@ -108,9 +108,9 @@ export default App;
 
 ## **3) Passing Redux Store to a React Page**
 
-## **Integrating Redux with React:**
+### **Integrating Redux with React:**
 
-## Redux is a **state management library** used in react, it centralizes application state in a **single store** , making it accessible across components . Actions are **dispatched** to modify the state, and **reducers** define how the state changes the responses. It is mostly used in complex react applications.
+### Redux is a **state management library** used in react, it centralizes application state in a **single store** , making it accessible across components . Actions are **dispatched** to modify the state, and **reducers** define how the state changes the responses. It is mostly used in complex react applications.
 
 ```javascript
 import { createStore } from "redux";
@@ -138,27 +138,31 @@ const App = () => {
 export default App;
 ```
 
-## **3) Prompt to display MUI Table in React**
+## **4) Prompt to display MUI Table in React**
 
-## \*\*MindMap prompt for displaying a table in react
+### MindMap prompt for displaying a table in react
 
-1. React App Setup
-   --> Initialize a new react application using vite .
-   --> Install Material UI for using table components.
+1. **React App Setup**
 
-2. Fetching the Data.
-   --> Use Async/Await to fetch data from the
-   JSONPlaceholder API
-   --> handle Error properly , if fetching the data fails.
+   - Initialize a new react application using vite .
+   - Install Material UI for using table components.
 
-3. Displaying Table
-   --> Use Material UI's table components to structure the
-   table.
+2. **Fetching the Data**
 
-4. Responsiveness
-   -->use MUI's **sx** property for responsive desing for
-   displaying the table according to the width.
+   - Use Async/Await to fetch data from the
+     JSONPlaceholder API
+   - handle Error properly , if fetching the data fails.
 
-5. Storing the data and rendering it
-   --> Store the response in a state, and render the data
-   using map method and display them in the table.
+3. **Displaying Table**
+
+   - Use Material UI's table components to structure the
+     table.
+
+4. **Responsiveness**
+
+   - Use MUI's **sx** property for responsive desing for
+     displaying the table according to the width.
+
+5. **Storing the data and rendering it**
+   - Store the response in a state, and render the data
+     using map method and display them in the table.
