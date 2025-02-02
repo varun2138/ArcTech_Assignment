@@ -6,7 +6,7 @@ This repository contains my solutions for the Assignment given by ArchTech for W
 
 ### **The Assignment includes**:
 
-- Fetching data using 'async/await'.
+- Fetching data using **async/await**.
 - Displaying the data in a **MUI Table**.
 - Integrating **Redux**.
 - Writing a **mindmap prompt**.
@@ -38,7 +38,7 @@ fetchData();
 
 ## **2) Displaying Data in an MUI Table**
 
-### **We use Material UI to display the data in a responsive table**.
+#### **We use Material UI to display the data in a responsive table**.
 
 ### **Code snippet:**
 
@@ -108,9 +108,9 @@ export default App;
 
 ## **3) Passing Redux Store to a React Page**
 
-### **Integrating Redux with React:**
+**Integrating Redux with React:**
 
-### Redux is a **state management library** used in react, it centralizes application state in a **single store** , making it accessible across components . Actions are **dispatched** to modify the state, and **reducers** define how the state changes the responses. It is mostly used in complex react applications.
+Redux is a **state management library** used in react, it centralizes application state in a **single store** , making it accessible across components . Actions are **dispatched** to modify the state, and **reducers** define how the state changes the responses. It is mostly used in complex react applications.
 
 ```javascript
 import { createStore } from "redux";
